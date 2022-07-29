@@ -21,7 +21,7 @@ I'm `Adnan Sarkar`. This is the 5th assignment in my [Full Stack Javascript](htt
 - How to use background image with gradient overlay.
 
 ## ⏲ Time to finish the project
-As it is my first project, it took me around 3.30-4.00 hours to complete this project.
+It took me around 3.30-4.00 hours to complete this project.
 
 ## 📢 Social Links
 - [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adnan-sarkar-8b54341a0/)
