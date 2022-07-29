@@ -93,7 +93,8 @@ nav {
 }
 
 .menu-item ul li a {
-    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
     color: #fff;
     transition: color 300ms linear;
     display: flex;
