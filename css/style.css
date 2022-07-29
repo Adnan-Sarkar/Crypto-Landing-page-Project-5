@@ -1,0 +1,143 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* common btn style */
+.btn-fill {
+    padding: 10px 30px;
+    background-color: #BA0CC5;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.btn-fill-large {
+    padding: 10px 15px;
+    background-color: #BA0CC5;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+}
+
+.nav-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav-content .brand {
+    width: 10%;
+    margin-right: 50px;
+}
+
+.menu-item {
+    width: 80%;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #fff;
+}
+
+.menu-item > ul {
+    display: flex;
+}
+
+.menu-item ul > li {
+    margin-left: 50px;
+}
+
+.menu-item ul li a {
+    font-size: 22px;
+    color: #fff;
+    transition: color 300ms linear;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu-item ul li a i {
+    margin-left: 10px;
+}
+
+.menu-item ul li a:hover {
+    color: #c9c9c9;
+}
+
+.nav-btn {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* hero-content */
+.hero-content {
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
