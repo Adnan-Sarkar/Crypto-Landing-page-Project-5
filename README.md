@@ -13,7 +13,7 @@ I'm `Adnan Sarkar`. This is the 5th assignment in my [Full Stack Javascript](htt
 
 [Live Preview](https://crypto-landingpage-project-5.netlify.app/)
 
-![]()
+![](Crypto%20Landing%20page.png)
 
 ##  What I have learned in this project?
 - Flex-box for elements alignment.
